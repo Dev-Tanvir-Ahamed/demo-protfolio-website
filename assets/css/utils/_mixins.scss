@@ -1,0 +1,14 @@
+@mixin btn {
+  background-color: $link_hover;
+  color: $white;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: 0.3s;
+  border-color: $link_hover;
+  &:hover {
+    background-color: $link_color;
+    color: $white;
+    border-color: $link_color;
+  }
+}

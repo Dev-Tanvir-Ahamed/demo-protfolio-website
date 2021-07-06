@@ -1,0 +1,66 @@
+.logo {
+  color: #333;
+  font-weight: 700;
+  font-size: 24px;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+nav {
+  height: 80px;
+}
+.navbar-nav {
+  ul {
+  }
+  li {
+  }
+  a {
+    color: $link_color !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+    font-size: 20px;
+    &:hover {
+      color: $link_hover !important;
+    }
+  }
+}
+
+// Banner
+
+.banner_img {
+  background-image: url("../../../img/banner.jpg");
+  height: 100vh;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: $white;
+  position: absolute;
+  left: 30%;
+  .developer_name {
+    margin-bottom: 10px;
+    h4 {
+      font-size: 80px;
+      font-weight: 900;
+    }
+  }
+  .developer_title {
+    margin-bottom: 15px;
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+    li {
+      font-size: 24px;
+      padding: 0 5px;
+    }
+  }
+  button {
+    @include btn;
+  }
+}

@@ -1,0 +1,38 @@
+.about {
+  h1 {
+    font-size: 40px;
+    color: $link_hover;
+  }
+  h4 {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .developer_details {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      margin-right: 35px;
+      i {
+        color: $link_hover;
+        margin-right: 5px;
+      }
+    }
+    .mleft {
+      margin-left: 58px;
+    }
+  }
+  button {
+    @include btn;
+    margin-top: 15px;
+  }
+}
