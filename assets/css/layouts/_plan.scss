@@ -1,0 +1,22 @@
+.plan {
+  background-color: #f6f6f6;
+  height: 800px;
+  padding-top: 60px;
+  .single_plan {
+    background-color: $white;
+    text-align: center;
+    padding: 64px 0px;
+    h1 {
+      font-weight: 900;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      padding: 8px 0;
+    }
+    button {
+      @include btn;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.blog {
+  background-color: #f6f6f6;
+  height: 800px;
+  padding-top: 50px;
+  .single_blog {
+    background-color: $white;
+    padding-bottom: 15px;
+    img {
+      width: 100%;
+      transition: 0.4s;
+      &:hover {
+        transform: translateY(-0.5rem);
+      }
+    }
+    .blog_details {
+      padding: 15px;
+      h4 {
+        transition: 0.4s;
+        &:hover {
+          color: $link_hover;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  button {
+    @include btn;
+  }
+}

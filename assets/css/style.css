@@ -153,7 +153,7 @@ nav {
 .banner button {
   background-color: #ff3636;
   color: #fff;
-  padding: 15px 30px;
+  padding: 10px 30px;
   font-size: 20px;
   text-transform: capitalize;
   -webkit-transition: 0.3s;
@@ -212,7 +212,7 @@ nav {
 .about button {
   background-color: #ff3636;
   color: #fff;
-  padding: 15px 30px;
+  padding: 10px 30px;
   font-size: 20px;
   text-transform: capitalize;
   -webkit-transition: 0.3s;
@@ -298,5 +298,355 @@ nav {
   border-radius: 50%;
   margin-bottom: 10px;
   color: #222;
+}
+
+.counter_div {
+  background-color: #0f1113;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.counter_div .single_counter {
+  text-align: center;
+}
+
+.counter_div .single_counter i {
+  background-color: #ff3636;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.experience .experience_list {
+  list-style-type: none;
+  position: relative;
+}
+
+.experience .experience_list::after {
+  position: absolute;
+  content: "";
+  background: #ff3636;
+  height: 100%;
+  width: 2px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.experience .experience_list li {
+  position: relative;
+  overflow: hidden;
+  clear: both;
+}
+
+.experience .experience_list .experience_content {
+  width: 500px;
+  text-align: end;
+  border: 2px solid #ff3636;
+  padding: 20px;
+}
+
+.experience .experience_list .experience_content span {
+  color: #ff3636;
+  font-weight: 600;
+}
+
+.experience .experience_list .experience_content::before {
+  content: "";
+  position: absolute;
+  background-color: #ff3636;
+  width: 30px;
+  height: 30px;
+  left: 48%;
+  border-radius: 50%;
+  -webkit-transform: translate(-19%);
+          transform: translate(-19%);
+  top: 45%;
+}
+
+.testimonial_section {
+  background-color: #0f1113;
+  color: #fff;
+}
+
+.testimonial_section .testimonial {
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.testimonial_section .testimonial .slick_slider {
+  position: relative;
+}
+
+.testimonial_section .testimonial .slick-prev {
+  background: tomato;
+  border-color: tomato;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 40%;
+  left: 100%;
+}
+
+.testimonial_section .testimonial .slick-next {
+  background: tomato;
+  border-color: tomato;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -4%;
+  top: 40%;
+}
+
+.testimonial_section .testimonial .testimonial_single_content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial_section .testimonial .testimonial_single_content img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.testimonial_section .testimonial .testimonial_single_content h4 {
+  margin-top: 40px;
+}
+
+.plan {
+  background-color: #f6f6f6;
+  height: 800px;
+  padding-top: 60px;
+}
+
+.plan .single_plan {
+  background-color: #fff;
+  text-align: center;
+  padding: 64px 0px;
+}
+
+.plan .single_plan h1 {
+  font-weight: 900;
+}
+
+.plan .single_plan ul {
+  list-style-type: none;
+}
+
+.plan .single_plan li {
+  padding: 8px 0;
+}
+
+.plan .single_plan button {
+  background-color: #ff3636;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-color: #ff3636;
+}
+
+.plan .single_plan button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.team .single_team {
+  position: relative;
+  overflow: hidden;
+}
+
+.team:hover .team_overlay {
+  position: absolute;
+  bottom: 0;
+}
+
+.team img {
+  width: 100%;
+}
+
+.team .team_overlay {
+  position: absolute;
+  bottom: -27%;
+  height: 120px;
+  left: 0%;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.team .team_overlay h4 {
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.team .team_overlay p {
+  margin-bottom: 5px;
+}
+
+.team .team_overlay a {
+  color: #fff;
+  padding: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.team .team_overlay a:hover {
+  color: #ff3636;
+}
+
+.blog {
+  background-color: #f6f6f6;
+  height: 800px;
+  padding-top: 50px;
+}
+
+.blog .single_blog {
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+
+.blog .single_blog img {
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.blog .single_blog img:hover {
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+}
+
+.blog .single_blog .blog_details {
+  padding: 15px;
+}
+
+.blog .single_blog .blog_details h4 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.blog .single_blog .blog_details h4:hover {
+  color: #ff3636;
+  cursor: pointer;
+}
+
+.blog button {
+  background-color: #ff3636;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-color: #ff3636;
+}
+
+.blog button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.hire_div {
+  background-image: url("/img/hire-me.jpg");
+  color: #fff;
+  height: 400px;
+}
+
+.hire_div .hire_details {
+  z-index: 222;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hire_div .hire_details i {
+  font-size: 80px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hire_div .hire_details h1 {
+  margin-bottom: 30px;
+}
+
+.hire_div .hire_details button {
+  background-color: #ff3636;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-color: #ff3636;
+}
+
+.hire_div .hire_details button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.contact_us .contact_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_us .contact_details .address_icon {
+  margin-right: 10px;
+}
+
+.contact_us .contact_details h6 {
+  margin-bottom: 0;
+}
+
+.contact_us .contact_details p {
+  margin-bottom: 0;
+}
+
+.footer_section {
+  background-color: #333;
+  height: 400px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+.footer_section h1::after {
+  content: "";
+  top: 50%;
+  width: 56%;
+  height: 2px;
+  position: absolute;
+  background: #777;
+  left: 23%;
+}
+
+.footer_section a {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer_section p {
+  margin-top: 80px;
 }
 /*# sourceMappingURL=style.css.map */

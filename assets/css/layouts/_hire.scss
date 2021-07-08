@@ -1,0 +1,22 @@
+.hire_div {
+  background-image: url("/img/hire-me.jpg");
+  color: #fff;
+  height: 400px;
+  .hire_details {
+    z-index: 222;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    i {
+      font-size: 80px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    button {
+      @include btn;
+    }
+  }
+}

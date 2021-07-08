@@ -1,0 +1,15 @@
+.contact_us {
+  .contact_details {
+    display: flex;
+    align-items: center;
+    .address_icon {
+      margin-right: 10px;
+    }
+    h6 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

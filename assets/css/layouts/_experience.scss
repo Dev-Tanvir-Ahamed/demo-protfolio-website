@@ -1,0 +1,42 @@
+.experience {
+  .experience_list {
+    list-style-type: none;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      background: $link_hover;
+      height: 100%;
+      width: 2px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    li {
+      position: relative;
+      overflow: hidden;
+      clear: both;
+    }
+    .experience_content {
+      width: 500px;
+      text-align: end;
+      border: 2px solid $link_hover;
+      padding: 20px;
+      span {
+        color: $link_hover;
+        font-weight: 600;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        background-color: #ff3636;
+        width: 30px;
+        height: 30px;
+        left: 48%;
+        border-radius: 50%;
+        transform: translate(-19%);
+        top: 45%;
+      }
+    }
+  }
+}

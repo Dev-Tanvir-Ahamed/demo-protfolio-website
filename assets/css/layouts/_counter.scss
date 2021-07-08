@@ -1,0 +1,15 @@
+.counter_div {
+  background-color: #0f1113;
+  color: $white;
+  padding: 60px 0;
+  .single_counter {
+    text-align: center;
+    i {
+      background-color: $link_hover;
+      color: $white;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.team {
+  .single_team {
+    position: relative;
+    overflow: hidden;
+  }
+  &:hover .team_overlay {
+    position: absolute;
+    bottom: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .team_overlay {
+    position: absolute;
+    bottom: -27%;
+    height: 120px;
+    left: 0%;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    transition: 0.4s;
+
+    h4 {
+      margin-bottom: 5px;
+      padding-top: 10px;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+    a {
+      color: $white;
+      padding: 10px;
+      transition: 0.3s;
+      &:hover {
+        color: $link_hover;
+      }
+    }
+  }
+}
